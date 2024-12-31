@@ -1,0 +1,33 @@
+.grid {
+  display: grid;
+  grid-template-rows: repeat(2, 250px); 
+  grid-template-columns: repeat(3, 300px);
+  /* gap: 8px; */
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+main {
+  background-color: var(--gray-200);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 56px;
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 72px;
+  font: var(--text-subtitle);
+  color: var(--red);
+}
+
+.gap-16 {
+  gap: 30px
+}
