@@ -58,8 +58,8 @@ header #about {
 /* Ícone ultrapassando o círculo */
 .outer-circle .icon {
   position: absolute;
-  bottom: 5px; /* Transborda além do limite inferior */
-  right: -8px; /* Transborda além do limite direito */
+  bottom: -6px; /* Transborda além do limite inferior */
+  right: 1px; /* Transborda além do limite direito */
   font: var(--title-md); /* Ajuste do tamanho do ícone */
   color: var(--green); /* Cor do ícone */
   z-index: 2; /* Garante que o ícone fique visível */
