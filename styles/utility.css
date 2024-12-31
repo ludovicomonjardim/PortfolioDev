@@ -1,12 +1,20 @@
 .grid {
   display: grid;
-  grid-template-rows: repeat(2, 250px); 
-  grid-template-columns: repeat(3, 300px);
   /* gap: 8px; */
 }
 
 .grid-flow-col {
   grid-auto-flow: column;
+  grid-template-rows: repeat(2, 250px); 
+  grid-template-columns: repeat(3, 300px);
+
+}
+
+.grid-flow-row {
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 300px);
+  align-content: left;
+  /* gap: 8px; */
 }
 
 main {
